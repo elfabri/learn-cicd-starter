@@ -36,6 +36,8 @@ func TestAuth(t *testing.T) {
             got, err := GetAPIKey(head.Header)
             if err != nil {
                 fmt.Printf("\t- on %s, error: %v\n", name, err)
+                // break to test gh actions
+                t.Fatalf("expected: %#v, got: %#v", tc.want, got)
             }
             if !reflect.DeepEqual(tc.want, got) {
                 t.Fatalf("expected: %#v, got: %#v", tc.want, got)
