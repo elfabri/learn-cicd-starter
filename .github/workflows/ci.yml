@@ -42,4 +42,3 @@ jobs:
 
       - name: check linting
         run: test -z $(staticcheck ./...)
-
