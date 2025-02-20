@@ -1,4 +1,5 @@
-![Continuous Integration Test Status](https://github.com/elfabri/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+[![Continuous Integration Test Status](https://github.com/elfabri/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/elfabri/learn-cicd-starter/actions/workflows/ci.yml)
+[![Continuous Deployment Status](https://github.com/elfabri/learn-cicd-starter/actions/workflows/cd.yml/badge.svg)](https://github.com/elfabri/learn-cicd-starter/actions/workflows/cd.yml)
 
 # learn-cicd-starter (Notely)
 
